@@ -3,7 +3,7 @@ body {
     text-decoration: none;
     width: 100%;
     height: 100%;
-    background: url('../_images/bg.png') center 185px no-repeat;
+    background: url('../images/bg.png') center 185px no-repeat;
     min-width: 990px;
 }
 
@@ -114,7 +114,7 @@ h4 {
 
 .am-uni-select span {
     display: block;
-    background: url('../_images/select-bg.png') right top no-repeat;
+    background: url('../images/select-bg.png') right top no-repeat;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -160,7 +160,7 @@ h4 {
     width: 17px;
     height: 14px;
     display: block;
-    background: url('../_images/checkbox-bg.png');
+    background: url('../images/checkbox-bg.png');
     position: absolute;
     top: -3px;
     left: 1px;
@@ -240,7 +240,7 @@ a.am-button {
 }
 
 .am-button.go {
-    background-image: url('../_images/button-go-bg.png');
+    background-image: url('../images/button-go-bg.png');
     background-position: right center;
     background-repeat: no-repeat;
     padding-right: 27px;
@@ -294,12 +294,12 @@ a.am-button.gray {
 
 .am-button .add {
     padding: 0 0 0 21px;
-    background: url('../_images/icon-add.png') left center no-repeat;
+    background: url('../images/icon-add.png') left center no-repeat;
 }
 
 .am-button .delete {
     padding: 0 0 0 21px;
-    background: url('../_images/icon-delete.png') left center no-repeat;
+    background: url('../images/icon-delete.png') left center no-repeat;
 }
 
 .am-input-text {
@@ -338,7 +338,7 @@ a.am-button.gray {
 header {
     height: 185px;
     box-shadow: 0px 0px 10px #665b5e;
-    background: url('../_images/header-bg.png') 0 27px;
+    background: url('../images/header-bg.png') 0 27px;
     margin: 0 0 11px 0;
 }
 
@@ -350,7 +350,7 @@ header .am-mainer {
 header nav {
     height: 26px;
     line-height: 26px;
-    background: url('../_images/header-nav-bg.png');
+    background: url('../images/header-nav-bg.png');
     text-align: justify;
     border-bottom: 1px solid #544226;
 }
@@ -369,7 +369,7 @@ header nav a:hover {
 
 header nav a.home {
     width: 40px;
-    background: url('../_images/header-nav-home-bg.png');
+    background: url('../images/header-nav-home-bg.png');
     text-decoration: none;
     margin: 0;
 }
@@ -408,7 +408,7 @@ header .logo:hover {
 header .map {
     width: 240px;
     height: 59px;
-    background: url('../_images/header-map-bg.png');
+    background: url('../images/header-map-bg.png');
     position: absolute;
     bottom: 0;
     left: 0;
@@ -446,15 +446,15 @@ header .phones .main em {
 }
 
 header .phones .mts {
-    background: url('../_images/icon-mts.png') right center no-repeat;
+    background: url('../images/icon-mts.png') right center no-repeat;
 }
 
 header .phones .kstar {
-    background: url('../_images/icon-kstar.png') right center no-repeat;
+    background: url('../images/icon-kstar.png') right center no-repeat;
 }
 
 header .phones .life {
-    background: url('../_images/icon-life.png') right center no-repeat;
+    background: url('../images/icon-life.png') right center no-repeat;
 }
 
 header .right-block {
@@ -548,11 +548,11 @@ header .button-sto span {
 }
 
 header .button-tools span {
-    background: url('../_images/button-tools-bg.png') left center no-repeat;
+    background: url('../images/button-tools-bg.png') left center no-repeat;
 }
 
 header .button-sto span {
-    background: url('../_images/button-sto-bg.png') left center no-repeat;
+    background: url('../images/button-sto-bg.png') left center no-repeat;
 }
 
 header .user-block {
@@ -580,7 +580,7 @@ header .user-block .icon {
     position: absolute;
     width: 41px;
     height: 41px;
-    background: url('../_images/header-userblock-bg.png');
+    background: url('../images/header-userblock-bg.png');
     top: 28px;
     left: 6px;
 }
@@ -703,7 +703,7 @@ header .search-block .am-button {
 }
 
 .am-prefooter {
-    background: url('../_images/prefooter-bg.png') left bottom repeat-x #dfe2e3;
+    background: url('../images/prefooter-bg.png') left bottom repeat-x #dfe2e3;
     padding: 11px 0 16px 0;
 }
 
@@ -724,7 +724,7 @@ header .search-block .am-button {
 }
 
 .am-prefooter .tags {
-    background: url('../_images/tabs-block-bg.png') left bottom repeat-x;
+    background: url('../images/tabs-block-bg.png') left bottom repeat-x;
     padding: 0 0 17px 0;
 }
 
@@ -772,17 +772,17 @@ header .search-block .am-button {
     margin: 5px 0 0 0;
     font-style: italic;
     color: #4f5a5e;
-    background: url('../_images/icon-date.png') left center no-repeat;
+    background: url('../images/icon-date.png') left center no-repeat;
 }
 
 footer {
-    background: url('../_images/footer-bg.png') repeat-x;
+    background: url('../images/footer-bg.png') repeat-x;
     height: 127px;
     padding: 11px 0;
 }
 
 footer .inner-block {
-	background: url('../_images/footer-inner-bg.png');
+	background: url('../images/footer-inner-bg.png');
     border-top: 1px solid #000000;
     border-radius: 10px;
     padding: 6px 20px;
@@ -839,7 +839,7 @@ footer .social a {
     width: 29px;
     height: 30px;
     text-decoration: none;
-    background: url('../_images/social-bg.png');
+    background: url('../images/social-bg.png');
 }
 
 footer .social a.gp {
@@ -920,7 +920,7 @@ footer .copy a:hover {
     position: relative;
     margin: 0 10px 0 0;
     padding: 0 6px;
-    background: url('../_images/crumbs-bg.png') left bottom;
+    background: url('../images/crumbs-bg.png') left bottom;
 }
 
 .am-crumbs a:before {
@@ -928,7 +928,7 @@ footer .copy a:hover {
     content: '';
     width: 12px;
     height: 28px;
-    background: url('../_images/crumbs-bg.png');
+    background: url('../images/crumbs-bg.png');
     left: -12px;
     top: 0;
 }
@@ -938,7 +938,7 @@ footer .copy a:hover {
     content: '';
     width: 12px;
     height: 28px;
-    background: url('../_images/crumbs-bg.png') right top;
+    background: url('../images/crumbs-bg.png') right top;
     right: -12px;
     top: 0;
 }
@@ -1047,7 +1047,7 @@ footer .copy a:hover {
 .am-block-more a {
     color: #ff5400;
     padding: 0 15px 0 0;
-    background: url('../_images/more-bg.png') right center no-repeat;
+    background: url('../images/more-bg.png') right center no-repeat;
 }
 
 .am-social-widget {
@@ -1070,7 +1070,7 @@ footer .copy a:hover {
     display: block;
     width: 26px;
     height: 26px;
-    background: url('../_images/social-bg2.png');
+    background: url('../images/social-bg2.png');
 }
 
 .am-social-widget a.fb {
@@ -1104,7 +1104,7 @@ footer .copy a:hover {
     right: 0;
     width: 36px;
     height: 197px;
-    background: url('../_images/ask-widget-bg.png');
+    background: url('../images/ask-widget-bg.png');
 }
 
 .am-ask-widget:hover {
@@ -1263,7 +1263,7 @@ footer .copy a:hover {
     position: absolute;;
     width: 34px;
     height: 100%;
-    background: url('../_images/category-opac.png');
+    background: url('../images/category-opac.png');
     top: 32px;
     right: 0;
 }
@@ -1313,83 +1313,83 @@ footer .copy a:hover {
 }
 
 .am-category-list .item .caption.cat-01 {
-    background-image: url('../_images/category/001.png');
+    background-image: url('../images/category/001.png');
 }
 
 .am-category-list .item .caption.cat-02 {
-    background-image: url('../_images/category/002.png');
+    background-image: url('../images/category/002.png');
 }
 
 .am-category-list .item .caption.cat-03 {
-    background-image: url('../_images/category/003.png');
+    background-image: url('../images/category/003.png');
 }
 
 .am-category-list .item .caption.cat-04 {
-    background-image: url('../_images/category/004.png');
+    background-image: url('../images/category/004.png');
 }
 
 .am-category-list .item .caption.cat-05 {
-    background-image: url('../_images/category/005.png');
+    background-image: url('../images/category/005.png');
 }
 
 .am-category-list .item .caption.cat-06 {
-    background-image: url('../_images/category/006.png');
+    background-image: url('../images/category/006.png');
 }
 
 .am-category-list .item .caption.cat-07 {
-    background-image: url('../_images/category/007.png');
+    background-image: url('../images/category/007.png');
 }
 
 .am-category-list .item .caption.cat-08 {
-    background-image: url('../_images/category/008.png');
+    background-image: url('../images/category/008.png');
 }
 
 .am-category-list .item .caption.cat-09 {
-    background-image: url('../_images/category/009.png');
+    background-image: url('../images/category/009.png');
 }
 
 .am-category-list .item .caption.cat-10 {
-    background-image: url('../_images/category/010.png');
+    background-image: url('../images/category/010.png');
 }
 
 .am-category-list .item .caption.cat-11 {
-    background-image: url('../_images/category/011.png');
+    background-image: url('../images/category/011.png');
 }
 
 .am-category-list .item .caption.cat-12 {
-    background-image: url('../_images/category/012.png');
+    background-image: url('../images/category/012.png');
 }
 
 .am-category-list .item .caption.cat-13 {
-    background-image: url('../_images/category/013.png');
+    background-image: url('../images/category/013.png');
 }
 
 .am-category-list .item .caption.cat-14 {
-    background-image: url('../_images/category/014.png');
+    background-image: url('../images/category/014.png');
 }
 
 .am-category-list .item .caption.cat-15 {
-    background-image: url('../_images/category/015.png');
+    background-image: url('../images/category/015.png');
 }
 
 .am-category-list .item .caption.cat-16 {
-    background-image: url('../_images/category/016.png');
+    background-image: url('../images/category/016.png');
 }
 
 .am-category-list .item .caption.cat-17 {
-    background-image: url('../_images/category/017.png');
+    background-image: url('../images/category/017.png');
 }
 
 .am-category-list .item .caption.cat-18 {
-    background-image: url('../_images/category/018.png');
+    background-image: url('../images/category/018.png');
 }
 
 .am-category-list .item .caption.cat-19 {
-    background-image: url('../_images/category/019.png');
+    background-image: url('../images/category/019.png');
 }
 
 .am-category-list .item .caption.cat-20 {
-    background-image: url('../_images/category/020.png');
+    background-image: url('../images/category/020.png');
 }
 
 .am-category-list .item .caption a {
@@ -1448,7 +1448,7 @@ footer .copy a:hover {
     position: absolute;;
     width: 34px;
     height: 100%;
-    background: url('../_images/manuf-opac.png');
+    background: url('../images/manuf-opac.png');
     top: 31px;
     right: 0;
 }
@@ -1494,7 +1494,7 @@ footer .copy a:hover {
     position: absolute;
     width: 9px;
     height: 9px;
-    background: url('../_images/step-bg.png') right top;
+    background: url('../images/step-bg.png') right top;
     bottom: -9px;
     right: 13px;
 }
@@ -1618,7 +1618,7 @@ footer .copy a:hover {
     bottom: 0;
     left: 0;
     width: 100%;
-    background: url('../_images/partcat-opac.png');
+    background: url('../images/partcat-opac.png');
 }
 
 .am-carchooser-block.light .opac {
@@ -1726,7 +1726,7 @@ footer .copy a:hover {
 
 .am-toolsgroup-block a.expand {
     display: inline-block;
-    background: url('../_images/plus-bg.png') no-repeat;
+    background: url('../images/plus-bg.png') no-repeat;
     width: 18px;
     height: 18px;
     position: absolute;
@@ -1736,11 +1736,11 @@ footer .copy a:hover {
 }
 
 .am-toolsgroup-block a.expand:hover{
-    background: url('../_images/plus-bgh.png') no-repeat;
+    background: url('../images/plus-bgh.png') no-repeat;
 }
 
 .am-toolsgroup-block li.selected>a.expand{
-    background: url('../_images/minus-bgh.png') no-repeat;
+    background: url('../images/minus-bgh.png') no-repeat;
 }
 
 .am-toolsgroup-block a {
@@ -1768,7 +1768,7 @@ footer .copy a:hover {
     bottom: 0;
     left: 0;
     width: 100%;
-    background: url('../_images/partcat-opac.png');
+    background: url('../images/partcat-opac.png');
 }
 
 .am-toolsgroup-block .inner:hover .opac {
@@ -1811,7 +1811,7 @@ footer .copy a:hover {
     width: 80px;
     margin: 0 7px 0 0;
     float: left;
-    background: url('../_images/auto-side-bg.png') 25px center no-repeat;
+    background: url('../images/auto-side-bg.png') 25px center no-repeat;
     position: relative;
 }
 
@@ -1884,11 +1884,11 @@ footer .copy a:hover {
 .am-partsfind-block .filter .brands-more a {
     padding: 0 17px 0 0;
     color: #fe7d00;
-    background: url('../_images/p-01.png') right center no-repeat;
+    background: url('../images/p-01.png') right center no-repeat;
 }
 
 .am-partsfind-block .filter .brands-more a.down {
-    background: url('../_images/p-02.png') right center no-repeat;
+    background: url('../images/p-02.png') right center no-repeat;
 }
 
 .am-part-element {
@@ -1970,7 +1970,7 @@ footer .copy a:hover {
     position: absolute;
     width: 10px;
     height: 10px;
-    background: url('../_images/p-03.png');
+    background: url('../images/p-03.png');
     bottom: -9px;
     left: 6px;
 }
@@ -2058,7 +2058,7 @@ footer .copy a:hover {
 .am-part-element .buy-block .count .down {
     width: 10px;
     height: 6px;
-    background: url('../_images/count-block-bg.png');
+    background: url('../images/count-block-bg.png');
     position: absolute;
     right: 7px;
     cursor: pointer;
@@ -2189,7 +2189,7 @@ footer .copy a:hover {
     margin: 0 0 6px 0;
     font-style: italic;
     color: #4f5a5e;
-    background: url('../_images/icon-date.png') left center no-repeat;
+    background: url('../images/icon-date.png') left center no-repeat;
 }
 
 .am-stepper {
@@ -2229,7 +2229,7 @@ footer .copy a:hover {
     height: 46px;
     box-shadow: 0 1px 4px #abadaf;
     margin: 0 7px 0 0;
-    background: url('../_images/stepper-arrows-bg.png');
+    background: url('../images/stepper-arrows-bg.png');
     text-decoration: none;
 }
 
@@ -2296,17 +2296,17 @@ footer .copy a:hover {
 }
 
 .am-part-view .options .element.opt-01 .inner {
-    background-image: url('../_images/tool-option-01.png');
+    background-image: url('../images/tool-option-01.png');
     background-position: 10px 25px;
 }
 
 .am-part-view .options .element.opt-02 .inner {
-    background-image: url('../_images/tool-option-02.png');
+    background-image: url('../images/tool-option-02.png');
     background-position: 10px 20px;
 }
 
 .am-part-view .options .element.opt-03 .inner {
-    background-image: url('../_images/tool-option-03.png');
+    background-image: url('../images/tool-option-03.png');
     background-position: 15px 20px;
 }
 
@@ -2386,7 +2386,7 @@ footer .copy a:hover {
     position: absolute;
     width: 10px;
     height: 10px;
-    background: url('../_images/p-03.png');
+    background: url('../images/p-03.png');
     bottom: -9px;
     left: 6px;
 }
@@ -2428,7 +2428,7 @@ footer .copy a:hover {
     vertical-align: middle;
     width: 105px;
     height: 21px;
-    background: url('../_images/stars-bg.png') left bottom;
+    background: url('../images/stars-bg.png') left bottom;
     position: relative;
 }
 
@@ -2522,7 +2522,7 @@ footer .copy a:hover {
 .am-part-buy .buy-block .count .down {
     width: 10px;
     height: 6px;
-    background: url('../_images/count-block-bg.png');
+    background: url('../images/count-block-bg.png');
     position: absolute;
     right: 7px;
     cursor: pointer;
@@ -2937,7 +2937,7 @@ footer .copy a:hover {
     position: absolute;
     width: 32px;
     height: 32px;
-    background: url('../_images/popup-close.png');
+    background: url('../images/popup-close.png');
     top: 7px;
     right: 7px;
     cursor: pointer;
@@ -3065,7 +3065,7 @@ footer .copy a:hover {
     position: absolute;
     width: 25px;
     height: 24px;
-    background: url('../_images/p-04.png');
+    background: url('../images/p-04.png');
     left: -25px;
     bottom: 10px;
 }
