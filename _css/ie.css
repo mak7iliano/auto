@@ -1,0 +1,131 @@
+.ie8 .am-uni-select select,
+.ie8 .am-uni-checkbox input,
+.ie8 .am-uni-radio input {
+    filter: alpha(opacity=0);
+}
+
+.ie8 .am-button.gray:hover,
+.ie8 header nav a.home:hover,
+.ie8 header .logo:hover,
+.ie8 footer .partners .image:hover,
+.ie8 .am-social-widget a:hover,
+.ie8 .am-ask-widget:hover,
+.ie8 .am-part-element .buy-block .count .up:hover,
+.ie8 .am-part-element .buy-block .count .down:hover,
+.ie8 .am-part-buy .buy-block .count .up:hover,
+.ie8 .am-part-buy .buy-block .count .down:hover,
+.ie8 .am-popup-block .popup .close:hover {
+    filter: alpha(opacity=80);
+}
+
+.ie8 .disabled .am-carchooser-block:before,
+.ie8 .disabled .am-toolsgroup-block:before,
+.ie8 .am-partsfind-block .filter.disabled:before {
+    background: url('../_images/ie-50.png');
+}
+
+.ie8 .am-popup-block .dark {
+    filter: alpha(opacity=60);
+}
+
+.ie8 header .user-block {
+    margin: -1px -1px 7px 12px;
+    border: 1px solid #db5800;
+}
+
+.ie8 header .search-block input[type="text"] {
+    line-height: 35px;
+}
+
+.ie8 .am-part-view .options .element .inner {
+    border: 1px solid #e2e2e2;
+}
+
+.ie8 .am-part-view .options .element:hover .inner {
+    border: 1px solid #db5800;
+}
+
+.ie8 .am-part-buy .buy-block .count input {
+    margin: 5px 0 0 0;
+    height: auto;
+}
+
+.ie8 header .user-block {
+    margin: -1px -1px 7px 12px;
+    border: 1px solid #db5800;
+}
+
+.ie8 header .search-block input[type="text"] {
+    line-height: 35px;
+}
+
+.ie8 .am-carchooser-block .inner:hover {
+    margin: -1px;
+    border: 1px solid #c44a02;
+}
+
+.ie8 .am-part-element:hover .inner {
+    margin: -1px;
+    border: 1px solid #c44a02;
+}
+
+.ie8 .am-part-element .buy-block .count input {
+    margin: 5px 0 0 0;
+    height: auto;
+}
+
+.ie8 .am-part-element:hover .text {
+    margin: 0 -2px 0 0;
+}
+
+.ie8 .am-partsfind-block .auto-block .image {
+    border: 1px solid #e2e2e2;
+    margin: -1px;
+}
+
+.ie8 .am-input-text {
+    line-height: 31px;
+}
+
+.ie8 .am-car-list .element .image {
+    border: 1px solid #e2e2e2;
+    margin: -1px -1px 7px -1px;
+}
+
+.ie8 .am-car-list .element .image:hover,
+.ie8 .am-car-list .element.selected .image {
+    border: 1px solid #c44a02;
+}
+
+.ie8 .am-car-list .values {
+    margin: -1px -1px 29px -1px;
+    border: 1px solid #c44a02;
+}
+
+.ie8 .am-car-list .values:before ,
+.ie8 .am-car-list .values:after {
+    border: 1px solid #c44a02;
+}
+
+.ie8 .am-category-list .item:hover .inner {
+    border: 1px solid #c44a02;
+    margin: -16px;
+}
+
+.ie8 .am-popup-block .tools-form .hint .text {
+    border: 1px solid #b2b2b2;
+    margin: -1px;
+}
+
+.ie8 .am-toolsgroup-block .part {
+    float: left !important;
+    width: 235px;;
+}
+
+.ie8 .am-content-body {
+    background-color: #ffffff;
+}
+
+.ie8 .am-carchooser-block .selector-caption {
+    height: 19px;
+}

@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Auto Mania</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+
+    <link rel="stylesheet" type="text/css" media="screen, projection" href="_css/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen, projection" href="_css/ie.css" />
+
+    <script type="text/javascript" src="_js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="_js/jquery.uniform.min.js"></script>
+    <script type="text/javascript" src="_js/main.js"></script>
+    <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="am-mainer">
+                <a href="/" class="home"></a>
+                <a href="#">О НАС</a>
+                <a href="#">Новости</a>
+                <a href="#">Услуги СТО</a>
+                <a href="#">ЗАКАЗ ДОСТАВКА И ОПЛАТА</a>
+                <a href="#">ГАРАНТИИ и возврат</a>
+                <a href="#">КОНТАКТЫ</a>
+                <a href="#">Сотрудничество</a>
+                <span></span>
+            </div>
+        </nav>
+
+        <div class="am-mainer">
+            <a href="/" class="logo"><img src="_images/logo.png" alt=""/></a>
+            <div class="phones">
+                <span class="main"><em>044</em>587-7570</span>
+                <span class="mts"><em>095</em>295-0222</span>
+                <span class="kstar"><em>067</em>123-4567</span>
+                <span class="life"><em>063</em>321-7654</span>
+            </div>
+            <div class="right-block">
+                <div class="user-block exit">
+                    <div class="icon"></div>
+                    <a href="#" class="link">Выход</a>
+                    <div class="caption">Василий Пупкин</div>
+                    <a href="#">Личный кабинет</a>
+                </div>
+                <div class="user-block basket">
+                    <div class="icon"></div>
+                    <a href="#" class="link">Оформить</a>
+                    <div class="caption">Мой заказ:</div>
+                    Товаров:  <a href="#" class="count">8</a> <br />
+                    на 12 886 грн
+                </div>
+                 <a href="#" class="button-tools"><span>подберите <em>мне запчасти</em></span></a>
+                <a href="#" class="button-sto"><span>Записаться <em>на СТО</em></span></a>
+                <div class="clear"></div>
+                <div class="search-block">
+                    <input type="text" name="" value="" placeholder="Поиск по названию или коду запчасти" />
+                    <input type="submit" value="искать" class="am-button" />
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <a href="#" class="map"></a>
+        </div>
+    </header>
+
+    <div class="am-content-wrapper">
+        <div class="am-mainer">
+            <div class="am-crumbs">
+                <a href="/">Главная</a>
+            </div>
+
+            <div class="am-content-body">
+                <h2>Подобрать запчасть по марке авто:</h2>
+                <div class="am-mark-filter">
+                    <select name="" class="am-select" style="width: 195px;">
+                        <option value="">Выберите марку</option>
+                    </select>
+                    <select name="" class="am-select" style="width: 95px;">
+                        <option value="">Выберте год</option>
+                    </select>
+                    <select name="" class="am-select" style="width: 160px;">
+                        <option value="">Выберте модель</option>
+                    </select>
+                    <select name="" class="am-select" style="width: 250px;">
+                        <option value="">Выберте модификацию</option>
+                    </select>
+                    <input type="submit" value="искать" class="am-button" />
+                </div>
+            </div>
+
+            <div class="am-content-body">
+                <div class="am-autoparts-leftlayer">
+                    <h2>Подбор запчастей по рубрикатору:</h2>
+                    <div class="am-category-list">
+                        <div class="item">
+                            <div class="inner">
+                                <div class="caption cat-01">
+                                    <a href="#">Аксессуары</a>
+                                </div>
+                                <a href="">Клиновой ремень комплект</a><br />
+                                <a href="">Задняя часть</a><br />
+                                <a href="">Кабина/салон</a><br />
+                                <a href="">Основная фара</a>
+                                <a href="">Дополнительная фара</a><br />
+                                <a href="">Система освещения</a><br />
+                                <div class="opac"></div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="inner">
+                                <div class="caption cat-02">
+                                    <a href="#">Амортизация</a>
+                                </div>
+                                <a href="">Механизм газораспределения</a><br />
+                                <a href="">Прокладки</a><br />
+                                <a href="">Головка блока цилиндров</a><br />
+                                <a href="">Система подачи воздуха</a><br />
+                                <a href="">Блок-картер</a><br />
+                                <div class="opac"></div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="inner">
+                                <div class="caption cat-03">
+                                    <a href="#">Выпускная система</a>
+                                </div>
+                                <a href="">Масляный фильтр</a>
+                                <a href="">Воздушный фильтр</a>
+                                <a href="">Топливный фильтр</a>
+                                <a href="">Фильтр салона</a>
+                                <div class="opac"></div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="inner">
+                                <div class="caption cat-04">
+                                    <a href="#">Двигатель</a>
+                                </div>
+                                <a href="">Поликлиновой ремень / комплект</a>
+                                <a href="">Ремень ГРМ / комплект</a>
+                                <div class="opac"></div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="inner">
+                                <div class="caption cat-05">
+                                    <a href="#">Коробка передач</a>
+                                </div>
+                                <a href="">Механизм газораспределения</a>
+                                <a href="">Прокладки</a>
+                                <a href="">Головка блокацилиндров</a>
+                                <a href="">Система подачи воздуха</a>
+                                <a href="">Блок-картер</a>
+                                <div class="opac"></div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="inner">
+                                <div class="caption cat-06">
+                                    <a href="#">Кузов, фары, зеркала</a>
+                                </div>
+                                <a href="">Нейтрализация ОГ</a>
+                                <a href="">Приготовление смеси</a>
+                                <div class="opac"></div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="inner">
+                                <div class="caption cat-07">
+                                    <a href="#">Масла, фильтра</a>
+                                </div>
+                                <a href="">Передняя часть</a>
+                                <a href="">Задняя часть</a>
+                                <a href="">Кабина/салон</a>
+                                <a href="">Основная фара</a>
+                                <a href="">Дополнительная фара</a>
+                                <a href="">Система освещения</a>
+                                <div class="opac"></div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="inner">
+                                <div class="caption cat-08">
+                                    <a href="#">Отопление, вентиляция</a>
+                                </div>
+                                <a href="">Передняя часть</a>
+                                <a href="">Задняя часть</a>
+                                <a href="">Кабина/салон</a>
+                                <a href="">Основная фара</a>
+                                <a href="">Дополнительная фара</a>
+                                <a href="">Система освещения</a>
+                                <div class="opac"></div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="inner">
+                                <div class="caption cat-09">
+                                    <a href="#">Очистка окон</a>
+                                </div>
+                                <a href="">Передняя часть</a>
+                                <a href="">Задняя часть</a>
+                                <a href="">Кабина/салон</a>
+                                <a href="">Основная фара</a>
+                                <a href="">Дополнительная фара</a>
+                                <a href="">Система освещения</a>
+                                <div class="opac"></div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="inner">
+                                <div class="caption cat-10">
+                                    <a href="#">Пневматическая система</a>
+                                </div>
+                                <a href="">Передняя часть</a>
+                                <a href="">Задняя часть</a>
+                                <a href="">Кабина/салон</a>
+                                <a href="">Основная фара</a>
+                                <a href="">Дополнительная фара</a>
+                                <a href="">Система освещения</a>
+                                <div class="opac"></div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="inner">
+                                <div class="caption cat-11">
+                                    <a href="#">Подвеска, ходовая часть</a>
+                                </div>
+                                <a href="">Передняя часть</a>
+                                <a href="">Задняя часть</a>
+                                <a href="">Кабина/салон</a>
+                                <a href="">Основная фара</a>
+                                <a href="">Дополнительная фара</a>
+                                <a href="">Система освещения</a>
+                                <div class="opac"></div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="inner">
+                                <div class="caption cat-12">
+                                    <a href="#">Ремни и ролики ГРМ</a>
+                                </div>
+                                <a href="">Передняя часть</a>
+                                <a href="">Задняя часть</a>
+                                <a href="">Кабина/салон</a>
+                                <a href="">Основная фара</a>
+                                <a href="">Дополнительная фара</a>
+                                <a href="">Система освещения</a>
+                                <div class="opac"></div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="inner">
+                                <div class="caption cat-13">
+                                    <a href="#">Рулевое управление</a>
+                                </div>
+                                <a href="">Передняя часть</a>
+                                <a href="">Задняя часть</a>
+                                <a href="">Кабина/салон</a>
+                                <a href="">Основная фара</a>
+                                <a href="">Дополнительная фара</a>
+                                <a href="">Система освещения</a>
+                                <div class="opac"></div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="inner">
+                                <div class="caption cat-14">
+                                    <a href="#">Система зажигания и накал</a>
+                                </div>
+                                <a href="">Передняя часть</a>
+                                <a href="">Задняя часть</a>
+                                <a href="">Кабина/салон</a>
+                                <a href="">Основная фара</a>
+                                <a href="">Дополнительная фара</a>
+                                <a href="">Система освещения</a>
+                                <div class="opac"></div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="inner">
+                                <div class="caption cat-15">
+                                    <a href="#">Система охлаждения</a>
+                                </div>
+                                <a href="">Передняя часть</a>
+                                <a href="">Задняя часть</a>
+                                <a href="">Кабина/салон</a>
+                                <a href="">Основная фара</a>
+                                <a href="">Дополнительная фара</a>
+                                <a href="">Система освещения</a>
+                                <div class="opac"></div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="inner">
+                                <div class="caption cat-16">
+                                    <a href="#">Сцепление</a>
+                                </div>
+                                <a href="">Передняя часть</a>
+                                <a href="">Задняя часть</a>
+                                <a href="">Кабина/салон</a>
+                                <a href="">Основная фара</a>
+                                <a href="">Дополнительная фара</a>
+                                <a href="">Система освещения</a>
+                                <div class="opac"></div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="inner">
+                                <div class="caption cat-17">
+                                    <a href="#">Топливная система</a>
+                                </div>
+                                <a href="">Передняя часть</a>
+                                <a href="">Задняя часть</a>
+                                <a href="">Кабина/салон</a>
+                                <a href="">Основная фара</a>
+                                <a href="">Дополнительная фара</a>
+                                <a href="">Система освещения</a>
+                                <div class="opac"></div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="inner">
+                                <div class="caption cat-18">
+                                    <a href="#">Тормозная система</a>
+                                </div>
+                                <a href="">Передняя часть</a>
+                                <a href="">Задняя часть</a>
+                                <a href="">Кабина/салон</a>
+                                <a href="">Основная фара</a>
+                                <a href="">Дополнительная фара</a>
+                                <a href="">Система освещения</a>
+                                <div class="opac"></div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="inner">
+                                <div class="caption cat-19">
+                                    <a href="#">Шины, диски</a>
+                                </div>
+                                <a href="">Передняя часть</a>
+                                <a href="">Задняя часть</a>
+                                <a href="">Кабина/салон</a>
+                                <a href="">Основная фара</a>
+                                <a href="">Дополнительная фара</a>
+                                <a href="">Система освещения</a>
+                                <div class="opac"></div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="inner">
+                                <div class="caption cat-20">
+                                    <a href="#">Электроника</a>
+                                </div>
+                                <a href="">Передняя часть</a>
+                                <a href="">Задняя часть</a>
+                                <a href="">Кабина/салон</a>
+                                <a href="">Основная фара</a>
+                                <a href="">Дополнительная фара</a>
+                                <a href="">Система освещения</a>
+                                <div class="opac"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="am-autoparts-rightlayer">
+                    <h2>Поиск запчастей по бренду:</h2>
+                    <div class="am-brand-list light">
+                        <a href="#"><span><img src="_images/brands/001.png" alt="" /></span>Acura</a>
+                        <a href="#"><span><img src="_images/brands/002.png" alt="" /></span>Alfa Romeo</a>
+                        <a href="#"><span><img src="_images/brands/003.png" alt="" /></span>Audi</a>
+                        <a href="#"><span><img src="_images/brands/004.png" alt="" /></span>BMW</a>
+                        <a href="#"><span><img src="_images/brands/005.png" alt="" /></span>Cadillac</a>
+                        <a href="#"><span><img src="_images/brands/006.png" alt="" /></span>Chevrolet</a>
+                        <a href="#"><span><img src="_images/brands/007.png" alt="" /></span>Chrysler</a>
+                        <a href="#"><span><img src="_images/brands/008.png" alt="" /></span>Citroen</a>
+                        <a href="#"><span><img src="_images/brands/009.png" alt="" /></span>Dacia</a>
+                        <a href="#"><span><img src="_images/brands/010.png" alt="" /></span>Daewoo</a>
+                        <a href="#"><span><img src="_images/brands/011.png" alt="" /></span>Daihatsu</a>
+                        <a href="#"><span><img src="_images/brands/012.png" alt="" /></span>Daimler</a>
+                        <a href="#"><span><img src="_images/brands/013.png" alt="" /></span>Dodge</a>
+                        <a href="#"><span><img src="_images/brands/014.png" alt="" /></span>Fiat</a>
+                        <a href="#"><span><img src="_images/brands/015.png" alt="" /></span>Ferrari</a>
+                        <a href="#"><span><img src="_images/brands/016.png" alt="" /></span>Ford</a>
+                        <a href="#"><span><img src="_images/brands/017.png" alt="" /></span>Gaz</a>
+                        <a href="#"><span><img src="_images/brands/018.png" alt="" /></span>Geely</a>
+                        <a href="#"><span><img src="_images/brands/019.png" alt="" /></span>Gmc</a>
+                        <a href="#"><span><img src="_images/brands/020.png" alt="" /></span>Honda</a>
+                        <a href="#"><span><img src="_images/brands/021.png" alt="" /></span>Hyundai</a>
+                        <a href="#"><span><img src="_images/brands/022.png" alt="" /></span>Hummer</a>
+                        <a href="#"><span><img src="_images/brands/023.png" alt="" /></span>Infinity</a>
+                        <a href="#"><span><img src="_images/brands/024.png" alt="" /></span>Isuzu</a>
+                        <a href="#"><span><img src="_images/brands/025.png" alt="" /></span>Iveco</a>
+                        <a href="#"><span><img src="_images/brands/026.png" alt="" /></span>Jaguar</a>
+                        <a href="#"><span><img src="_images/brands/027.png" alt="" /></span>Jeep</a>
+                        <a href="#"><span><img src="_images/brands/028.png" alt="" /></span>KIA</a>
+                        <a href="#"><span><img src="_images/brands/029.png" alt="" /></span>Land-Rover</a>
+                        <a href="#"><span><img src="_images/brands/030.png" alt="" /></span>Lada</a>
+                        <a href="#"><span><img src="_images/brands/031.png" alt="" /></span>Lincoln</a>
+                        <a href="#"><span><img src="_images/brands/032.png" alt="" /></span>Lexus</a>
+                        <a href="#"><span><img src="_images/brands/033.png" alt="" /></span>Lancia</a>
+                        <a href="#"><span><img src="_images/brands/034.png" alt="" /></span>Lamborghini</a>
+                        <a href="#"><span><img src="_images/brands/035.png" alt="" /></span>Mercedes</a>
+                        <a href="#"><span><img src="_images/brands/036.png" alt="" /></span>Mitsubishi</a>
+                        <a href="#"><span><img src="_images/brands/037.png" alt="" /></span>Mini</a>
+                        <a href="#"><span><img src="_images/brands/038.png" alt="" /></span>Mazda</a>
+                        <a href="#"><span><img src="_images/brands/039.png" alt="" /></span>Moskvich</a>
+                        <a href="#"><span><img src="_images/brands/040.png" alt="" /></span>Nissan</a>
+                        <a href="#"><span><img src="_images/brands/041.png" alt="" /></span>Opel</a>
+                        <a href="#"><span><img src="_images/brands/042.png" alt="" /></span>Porsche</a>
+                        <a href="#"><span><img src="_images/brands/043.png" alt="" /></span>Pontiac</a>
+                        <a href="#"><span><img src="_images/brands/044.png" alt="" /></span>Peugeot</a>
+                        <a href="#"><span><img src="_images/brands/045.png" alt="" /></span>Renault</a>
+                        <a href="#"><span><img src="_images/brands/046.png" alt="" /></span>Rover</a>
+                        <a href="#"><span><img src="_images/brands/047.png" alt="" /></span>Saab</a>
+                        <a href="#"><span><img src="_images/brands/048.png" alt="" /></span>Ssang yong</a>
+                        <a href="#"><span><img src="_images/brands/049.png" alt="" /></span>Seat</a>
+                        <a href="#"><span><img src="_images/brands/050.png" alt="" /></span>Scania</a>
+                        <a href="#"><span><img src="_images/brands/051.png" alt="" /></span>Skoda</a>
+                        <a href="#"><span><img src="_images/brands/052.png" alt="" /></span>Subaru</a>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="am-block-more">
+                        Посмотреть весь
+                        <a href="#">каталог брендов</a>
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <br />
+                <br />
+
+                <div class="am-manufactorers">
+                    <div class="inner">
+                        <h2>Производители автозапчастей:</h2>
+                        <div class="list">
+                            <a href="">Lemforder</a>
+                            <a href="">Monroe</a>
+                            <a href="">Nipparts</a>
+                            <a href="">RUVILLE</a>
+                            <a href="">Sachs</a>
+                            <a href="">KYB</a>
+                            <a href="">DELPHI</a>
+                            <a href="">Nipparts</a>
+                            <a href="">RUVILLE</a>
+                            <a href="">Sachs</a>
+                            <a href="">RUVILLE</a>
+                            <a href="">Sachs</a>
+                            <a href="">KYB</a>
+                            <a href="">DELPHI</a>
+                            <a href="">Nipparts</a>
+                            <a href="">RUVILLE</a>
+                            <a href="">KYB</a>
+                            <a href="">DELPHI</a>
+                            <a href="">Lemforder</a>
+                            <a href="">Nipparts</a>
+                            <a href="">RUVILLE</a>
+                            <a href="">Sachs</a>
+                            <a href="">KYB</a>
+                            <a href="">DELPHI</a>
+                            <a href="">Nipparts</a>
+                            <a href="">RUVILLE</a>
+                            <a href="">Sachs</a>
+                            <a href="">RUVILLE</a>
+                            <a href="">Sachs</a>
+                            <a href="">KYB</a>
+                            <a href="">DELPHI</a>
+                            <a href="">Nipparts</a>
+                            <a href="">RUVILLE</a>
+                            <a href="">Lemforder</a>
+                            <a href="">Nipparts</a>
+                            <a href="">RUVILLE</a>
+                            <a href="">Sachs</a>
+                            <a href="">KYB</a>
+                            <a href="">DELPHI</a>
+                            <a href="">Nipparts</a>
+                            <a href="">RUVILLE</a>
+                            <a href="">Sachs</a>
+                            <a href="">RUVILLE</a>
+                            <a href="">Sachs</a>
+                            <a href="">KYB</a>
+                            <a href="">DELPHI</a>
+                            <a href="">Nipparts</a>
+                            <a href="">RUVILLE</a>
+                            <a href="">KYB</a>
+                            <a href="">DELPHI</a>
+                            <a href="">Lemforder</a>
+                            <a href="">Nipparts</a>
+                            <a href="">RUVILLE</a>
+                            <a href="">Sachs</a>
+                            <a href="">KYB</a>
+                            <a href="">DELPHI</a>
+                            <a href="">Nipparts</a>
+                            <a href="">RUVILLE</a>
+                            <a href="">Sachs</a>
+                            <a href="">RUVILLE</a>
+                            <a href="">Sachs</a>
+                            <a href="">KYB</a>
+                            <a href="">DELPHI</a>
+                            <a href="">Nipparts</a>
+                            <a href="">RUVILLE</a>
+                            <a href="">Nipparts</a>
+                            <a href="">RUVILLE</a>
+                            <a href="">KYB</a>
+                            <a href="">DELPHI</a>
+                            <a href="">Lemforder</a>
+                            <a href="">Nipparts</a>
+                            <a href="">RUVILLE</a>
+                            <a href="">Sachs</a>
+                            <a href="">KYB</a>
+                            <a href="">DELPHI</a>
+                            <a href="">Nipparts</a>
+                            <a href="">RUVILLE</a>
+                            <a href="">Sachs</a>
+                            <a href="">RUVILLE</a>
+                            <a href="">Sachs</a>
+                            <a href="">KYB</a>
+                            <a href="">DELPHI</a>
+                            <a href="">Nipparts</a>
+                            <a href="">RUVILLE</a>
+                        </div>
+                        <div class="opac"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="am-seo">
+            <div class="am-mainer">
+                <h2>Текст для СЕО-оптимизации</h2>
+                Амортизаторы - устройства, которое превращает механическую энергию в тепловую. Их используют для поглощения колебаний, ударов и толчков, действующих на корпус (раму) непосредственно через колеса авто. Амортизаторы применяют совместно с упругими деталями подвески - пружинами или рессорами, подушками, торсионами. Без этого элемента не может обойтись ни одна машина.<br />
+                <br />
+                Задние и передние амортизаторы - ваш комфорт и безопасность.
+            </div>
+        </div>
+
+        <div class="am-prefooter">
+            <div class="am-mainer">
+                <div class="left-block">
+                    <h2>Новости:</h2>
+                    <div class="news-block">
+                        <div class="element">
+                            <a href="#" class="image"><img src="_images/temp/001.png" alt="" /></a>
+                            <div class="name"><a href="#">В Милане покажут гардероб иконы стиля Анны Пьяджи</a></div>
+                            В феврале в миланской мастерской Fabbrica Del Vapore пройдет выставка вещей из личного гардероба известной
+                            <div class="date">08.02.2013</div>
+                        </div>
+                        <div class="element">
+                            <a href="#" class="image"><img src="_images/temp/002.png" alt="" /></a>
+                            <div class="name"><a href="#">В Милане покажут гардероб иконы стиля Анны Пьяджи</a></div>
+                            В феврале в миланской мастерской Fabbrica Del Vapore пройдет выставка вещей из личного гардероба известной
+                            <div class="date">08.02.2013</div>
+                        </div>
+                    </div>
+                    <div class="am-block-more">
+                        <a href="#">Вся лента новостей</a>
+                    </div>
+                </div>
+                <div class="right-block">
+                    <div class="delivery">
+                        <h2>Доставляем заказы по Украине</h2>
+                        Акимовка, Александрия, Александровка (Кировоград), Алупка, Алушта, Алчевск, Амвросиевка, Ананьев, Антрацит, Апостолово, Армянск, Артемовск, Арциз, Балта, Бар, Барановка, Бахмач, Бахчисарай
+                    </div>
+                    <div class="am-block-more">
+                        Все <a href="#">города доставки</a>
+                    </div>
+                    <br />
+                    <br />
+                    <div class="tags">
+                        <h2>Нас часто спрашивают о ...</h2>
+                        <a style="font-size: 16px;" href="">Акимовка,</a>
+                        <a style="font-size: 10px;" href="">Александрия,</a>
+                        <a style="font-size: 14px;" href="">Александровка (Кировоград),</a>
+                        <a style="font-size: 20px;" href="">Алупка,</a>
+                        <a href="">Алушта,</a>
+                        <a href="">Алчевск,</a>
+                        <a href="">Амвросиевка,</a>
+                        <a href="">Ананьев,</a>
+                        <a href="">Антрацит,</a>
+                        <a href="">Апостолово,</a>
+                        <a style="font-size: 16px;" href="">Армянск,</a>
+                        <a href="">Артемовск,</a>
+                        <a href="">Арциз,</a>
+                        <a href="">Балта,</a>
+                        <a href="">Бахчисарай,</a>
+                        <a style="font-size: 18px;" href="">Баштанка,</a>
+                    </div>
+                    <div class="am-block-more">
+                        Посмотреть <a href="#">полный список интересов</a>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="am-mainer">
+            <div class="inner-block">
+                <div class="partners">
+                    <div class="caption">Партнеры:</div>
+                    <a href="#" class="image"><img src="_images/partners/001.png" alt="" /></a>
+                    <a href="#" class="image"><img src="_images/partners/002.png" alt="" /></a>
+                    <a href="#" class="image"><img src="_images/partners/003.png" alt="" /></a>
+                    <div class="clear"></div>
+                </div>
+                <div class="social">
+                    <span>Давайте дружить:</span>
+                    <div class="items">
+                        <a href="#" class="gp">&nbsp;</a>
+                        <a href="#" class="vk">&nbsp;</a>
+                        <a href="#" class="fb">&nbsp;</a>
+                        <a href="#" class="tw">&nbsp;</a>
+                        <div class="clear">&nbsp;</div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="menu">
+                <a href="#">Карта сайта</a>   /
+                <a href="#">Контактная информация</a>  /
+                <a href="#">Правила перепечатки информации</a>
+            </div>
+            <div class="likes">
+                <img src="_images/temp/003.png" alt="" />
+            </div>
+            <div class="clear"></div>
+            <div class="copy">
+                &copy; <a href="/">АUТOMANIA</a>, 2004-2012
+            </div>
+        </div>
+    </footer>
+
+    <div class="am-social-widget">
+        <a href="#" class="fb"></a>
+        <a href="#" class="tw"></a>
+        <a href="#" class="vk"></a>
+        <a href="#" class="ok"></a>
+        <a href="#" class="gp"></a>
+    </div>
+
+    <a href="#" class="am-ask-widget"></a>
+</body>
+</html>
